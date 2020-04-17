@@ -1,0 +1,38 @@
+{
+    "list":[
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"},
+        {"id": 2, "title":"华夏银行江城支行","url":"../static/images/banner_2.png","address": "杭州市钱江路29号"},
+        {"id": 3, "title":"华夏银行城北支行","url":"../static/images/banner_3.png","address": "拱墅区杭行路188号路（360空间）"},
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"},
+        {"id": 2, "title":"华夏银行江城支行","url":"../static/images/banner_2.png","address": "杭州市钱江路29号"},
+        {"id": 3, "title":"华夏银行城北支行","url":"../static/images/banner_3.png","address": "拱墅区杭行路188号路（360空间）"},
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"},
+        {"id": 2, "title":"华夏银行江城支行","url":"../static/images/banner_2.png","address": "杭州市钱江路29号"},
+        {"id": 3, "title":"华夏银行城北支行","url":"../static/images/banner_3.png","address": "拱墅区杭行路188号路（360空间）"},
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"}
+    ],
+    "list2":[
+        {"id": 0, "title":"全部支行"},
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"},
+        {"id": 2, "title":"华夏银行江城支行","url":"../static/images/banner_2.png","address": "杭州市钱江路29号"},
+        {"id": 3, "title":"华夏银行城北支行","url":"../static/images/banner_3.png","address": "拱墅区杭行路188号路（360空间）"},
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"},
+        {"id": 2, "title":"华夏银行江城支行","url":"../static/images/banner_2.png","address": "杭州市钱江路29号"},
+        {"id": 3, "title":"华夏银行城北支行","url":"../static/images/banner_3.png","address": "拱墅区杭行路188号路（360空间）"},
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"},
+        {"id": 2, "title":"华夏银行江城支行","url":"../static/images/banner_2.png","address": "杭州市钱江路29号"},
+        {"id": 3, "title":"华夏银行城北支行","url":"../static/images/banner_3.png","address": "拱墅区杭行路188号路（360空间）"},
+        {"id": 1, "title":"华夏银行建国支行","url":"../static/images/banner_1.png","address": "杭州市建国北路621号"}
+    ],
+    "list3":[
+        {"id": 0,"title": "全部"},
+        {"id": 1,"title": "交通出行"},
+        {"id": 2,"title": "餐饮娱乐"},
+        {"id": 3,"title": "酒店住宿"},
+        {"id": 4,"title": "健身游泳"},
+        {"id": 5,"title": "家居装修"},
+        {"id": 6,"title": "医疗门诊"},
+        {"id": 7,"title": "电影演出"}
+    ],
+    "pages": 3
+}

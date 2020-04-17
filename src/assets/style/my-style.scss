@@ -1,0 +1,121 @@
+//间距
+$generalMargin:2.86rem/2;
+$titleMargin:1.43rem/2;
+$moreBigMargin:4.29rem/2;
+$bigMargin:3.57rem/2;
+$smallMargin:2.14rem/2;
+$smallerMargin:1.5rem/2;
+
+/* ==================== */
+
+/* ==================== */
+//尺寸
+$bigFont:3.14rem/2;
+$middleFont:2.29rem/2;
+$smallFont:1.89rem/2;
+$middbigFont:2.43rem/2;
+$middbigsmallFont:2.14rem/2;
+$middsmallFont:2rem/2;
+$btnHeight:6.29rem/2;
+$telIconSize:5.14rem/2;
+$borderRadius:8/14*1rem;
+/* ==================== */
+
+/* ===================== */
+//颜色
+$primaryColor:#e04b00;
+$darkColor:#9b9b9b;
+$blackColor:#333;
+$deeperBlackColor:#262626;
+$activeColor:#FF923A;
+$textColor:#6a6a6a;
+$btnColor:#f8f5f4;
+/* ===================== */
+
+/* ===================== */
+//mixin
+/* 文字超出容器隐藏 */
+
+@mixin overflow($width) {
+  max-width: $width;
+  width: $width;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+@mixin borderBox($size,$color:$borderColor){
+  border:$size solid $color;
+  border-radius: $size;
+  -webkit-border-radius: $size;
+}
+@mixin border-radius($size){
+  border-radius: $size;
+  -webkit-border-radius: $size;
+}
+/* 三角形 */
+
+@mixin triangle($direction:bottom, $color:$borderColor, $size:$boxMargin) {
+  border-style: solid;
+  border-width: $size/2;
+  border-color: transparent;
+  $width:$size - 0.4rem;
+  @if($direction==bottom) {
+    border-top-width: $width;
+    border-top-color: $color;
+  }
+  @else if($direction==top) {
+    border-bottom-width: $width;
+    border-bottom-color: $color;
+  }
+  @else if($direction==left) {
+    border-right-width: $width;
+    border-right-color: $color;
+  }
+  @else {
+    border-left-width: $width;
+    border-left-color: $color;
+  }
+}
+@mixin box-sizing($sizing){
+   box-sizing:$sizing;
+   -webkit-box-sizing:$sizing;
+  -ms-box-sizing:$sizing;
+}
+/* 缩小文字 */
+@mixin miniFont($scale:0.8){
+transform-style:preserve-3d;
+-webkit-transform-style:preserve-3d;
+transform:scale3d($scale, $scale, $scale);
+-webkit-transform:scale3d($scale, $scale, $scale);
+}
+@mixin activeBtn($fontSize:$middbigFont,$lineHeight:$btnHeight){
+  @extend %activeBtn;
+  font-size: $fontSize;
+  line-height:$lineHeight;
+}
+/* ===================== */
+
+/* ===================== */
+//extend
+%center_part{
+  margin:0 $generalMargin;
+  padding:$generalMargin 0;
+}
+%commonBorderRadius{
+   @include border-radius($borderRadius);
+}
+%activeBtn{
+  $btnTextColor:#fff;
+  $btnBgColor:hsla(20,100%,44%,1);
+  background-color:$btnBgColor;
+  display: block;
+  text-align: center;
+  color:$btnTextColor;
+  font-weight: 600;
+  letter-spacing: 1px;
+  &.active,&:hover,&:active{
+    background-color: hsla(20,100%,60%,1);
+  }
+}

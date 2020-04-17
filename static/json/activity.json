@@ -1,0 +1,49 @@
+{
+    "list":[
+        {
+            "icon": "../static/images/shouji.png",
+            "title": "您获得手机一部"
+        },
+        {
+            "name": "10优惠券",
+            "title": "您获得10优惠券"
+        },
+        {
+            "icon": "../static/images/meiandan.png",
+            "title": "您获得免单"
+        },
+        {
+            "name": "10优惠券",
+            "title": "您获得10优惠券"
+        },
+        {
+            "name": "5优惠券",
+            "title": "您获得5优惠券"
+        },
+        {
+            "icon": "../static/images/meiandan.png",
+            "title": "您获得免单"
+        },
+        {
+            "name": "谢谢参与",
+            "title": "谢谢参与"
+        },
+        {
+            "name": "20优惠券",
+            "title": "您获得20优惠券"
+        },
+        {
+            "icon": "../static/images/lajitun.png",
+            "title": "您获得垃圾桶"
+        },
+        {
+            "icon": "../static/images/meiandan.png",
+            "title": "您获得免单"
+        }
+    ],
+    "active": {
+        "time": "2016年8月10日——2016年8月20日",
+        "has": "1、凡积分满2000分以上即可参与大转盘抽奖一次；<br/>2、在此基础每加100元可多参与一次；<br/>3、现金消费满88元可参与一次抽奖。",
+        "success":"苹果6手机一台、立式格力空调一台、现金100元、现金500元"
+    }
+}
